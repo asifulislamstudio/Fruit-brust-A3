@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Brust</title>
+    <!-- tailwind and daisyUI CDN link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- customized color  -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'primary-color-bg': '#F85559',
+              }
+            }
+          }
+        }
+      </script>
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>    
+</head>
+
+<body>
+    <header>
+        <nav class=" lg:max-w-screen-xl mx-auto lg:my-10 ">
+<!-- Your HTML code -->
+<div class="navbar bg-[#F85559]  lg:rounded-full flex items-center justify-between px-4 py-2">
+    <!-- First Column (Menu Items) -->
+    <div class="navbar-start flex items-center space-x-4 hidden md:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a>Home</a></li>
+        <li><a>About</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+  
+    <!-- Second Column (Logo) -->
+    <div class="navbar-logo flex items-center justify-center">
+      <a class="btn btn-ghost normal-case text-xl">Logo</a>
+    </div>
+  
+    <!-- Third Column (Search Box & Toggle Button) -->
+    <div class="navbar-end flex items-center space-x-4">
+      <!-- Search Box -->
+      <div class="relative hidden md:block">
+        <input type="text" class="border border-gray-300 px-3 py-2 rounded-full focus:outline-none focus:ring focus:border-blue-300" placeholder="Search...">
+        <span class="absolute inset-y-0 right-2 flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M9 2a7 7 0 100 14A7 7 0 009 2zm0 12a5 5 0 100-10 5 5 0 000 10z" clip-rule="evenodd" />
+          </svg>
+        </span>
+      </div>
+  
+      <!-- Toggle Button (Visible for Mobile Devices) -->
+      <div class="dropdown md:hidden">
+        <label tabindex="0" class="btn btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </label>
+        <ul tabindex="0" class="menu menu-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-fit absolute  right-5 ">
+          <li><a>Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+        </nav>
+    </header>
+    
+    <main class="">
+        
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
