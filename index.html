@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awsome link  -->
+    <script src="https://kit.fontawesome.com/86987497d4.js" crossorigin="anonymous"></script>
     <title>Fruit Brust</title>
     <!-- tailwind and daisyUI CDN link  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
@@ -182,7 +184,187 @@
                     </div>
                   </div>
             </section>
-            
+            <!-- Deal Of The Day  -->
+            <section class="lg:max-w-screen-xl mx-auto lg:my-10 mt-28">
+                <!-- conuner and header  -->
+                <div class="flex flex-col lg:flex-row justify-between">
+                    <div class="text-center   lg:text-left">
+                        <h2 class="font-extrabold  text-4xl lg:text-5xl ">Deal of the day</h2>
+                        <p class="font-medium  text-base mt-6 mx-4 lg:mx-0 lg:mr-20 lg:mr-80">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div>
+                    <div class=" flex justify-center lg:justify-end mt-8 ">
+                        <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                            <div class="flex flex-col">
+                              <span class="countdown font-lato font-extrabold text-5xl">
+                                <span style="--value:15;"></span> 
+                              </span>
+                              Days
+                            </div> 
+                            <div class="flex flex-col">
+                              <span class="countdown font-lato font-extrabold text-5xl">
+                                <span style="--value:10;"></span>
+                              </span>
+                              Hours
+                            </div> 
+                            <div class="flex flex-col">
+                              <span class="countdown font-lato font-extrabold text-5xl">
+                                <span style="--value:24;"></span>
+                              </span>
+                              Minutes
+                            </div> 
+                            <div class="flex flex-col">
+                              <span class="countdown font-lato font-extrabold text-5xl">
+                                <span style="--value:34;"></span>
+                              </span>
+                              Seconds
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- product card  -->
+                <div class="grid md:grid-cols-2 mx-4 lg:mx-0 gap-y-4 lg:gap-y-0 lg:grid-cols-4 md:gap-x-6 mt-16">
+                    <!-- card 1 -->
+                    <div class="flex flex-col justify-center items-center p-12  m gap-y-1 border rounded-xl">
+                        <img src="./images/fruit6.png" alt="">
+                        <h3 class="font-bold text-2xl mt-12">12.90$ - 18.85$</h3>
+                        <div class="divider my-2"></div>
+                        <p class="text-base font-medium my-2" >apples</p>
+                        <!-- rating start  -->
+                       <div class="flex flex-col items-center justify-center ">
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                          </div>
+                          <!-- rating end  -->
+                          <button class="btn btn-ghost text-[#F85559]">Dtails</button>
+                       </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="flex flex-col justify-center items-center p-12 gap-y-1 border rounded-xl">
+                        <img src="./images/fruit7.png" alt="">
+                        <h3 class="font-bold text-2xl mt-12">12.90$ - 18.85$</h3>
+                        <div class="divider my-2"></div>
+                        <p class="text-base font-medium my-2" >Orange</p>
+                        <!-- rating start  -->
+                       <div class="flex flex-col items-center justify-center ">
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                          </div>
+                          <!-- rating end  -->
+                          <button class="btn btn-ghost text-[#F85559]">Dtails</button>
+                       </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="flex flex-col justify-center items-center p-12 gap-y-1 border rounded-xl">
+                        <img src="./images/fruit8.png" alt="">
+                        <h3 class="font-bold text-2xl mt-12">12.90$ - 18.85$</h3>
+                        <div class="divider my-2"></div>
+                        <p class="text-base font-medium my-2" >Red Dragon</p>
+                        <!-- rating start  -->
+                       <div class="flex flex-col items-center justify-center ">
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                          </div>
+                          <!-- rating end  -->
+                          <button class="btn btn-ghost text-[#F85559]">Dtails</button>
+                       </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="flex flex-col justify-center items-center p-12 gap-y-1 border rounded-xl">
+                        <img src="./images/fruit9.png" alt="">
+                        <h3 class="font-bold text-2xl mt-12">12.90$ - 18.85$</h3>
+                        <div class="divider my-2"></div>
+                        <p class="text-base font-medium my-2" >Banana</p>
+                        <!-- rating start  -->
+                       <div class="flex flex-col items-center justify-center ">
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                          </div>
+                          <!-- rating end  -->
+                          <button class="btn btn-ghost text-[#F85559]">Dtails</button>
+                       </div>
+                    </div>
+                  
+                   
+                </div>
+            </section>
+            <!-- Our Team section  -->
+            <section class="lg:max-w-screen-xl mx-4 lg:mx-auto rounded-3xl lg:rounded-lg lg:my-10 mt-28 ">
+                <div class="hero  rounded-3xl lg:rounded-lg" style="background-image: url('./images/team.png');">
+                    <div class="hero-overlay bg-opacity-60 rounded-3xl lg:rounded-lg"></div>
+                    <div class="hero-content text-center text-neutral-content py-8 px-6 lg:py-24">
+                      <div class="max-w-md lg:max-w-none lg:mx-60">
+                        <h1 class="mb-5 text-5xl font-bold font-lato">Meet the team section</h1>
+                        <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8 lg:gap-x-16 ">
+                            <!-- member 1 -->
+                            <div class="flex flex-col items-center">
+                                <img src="./images/member1.png" class="w-[50%] lg:w-full " alt="">
+                                <h2 class="font-bold text-xl mt-4">Awlad Hossain</h2>
+                                <p>Fruits Expert</p>
+                                <div>
+                                    <i class=" text-white bg-text-[#F85559] text-2xl fa  fa-brands fa-facebook"></i>
+                                    <i class=" text-white bg-text-[#F85559] text-2xl fa mx-2 fa-brands fa-twitter"></i>
+                                    <i class=" text-white bg-text-[#F85559] text-2xl fa  fa-brands fa-linkedin"></i>
+                                </div>
+
+                            </div>
+                            <!-- member 2 -->
+                            <div class="flex flex-col items-center">
+                                <img src="./images/member2.png" class="w-[50%] lg:w-full " alt="">
+                                <h2 class="font-bold text-xl mt-4">Safia Khan</h2>
+                                <p>Fruits Expert</p>
+                                <div>
+                                    <i class=" text-white bg-text-[#F85559] text-2xl fa  fa-brands fa-facebook"></i>
+                                    <i class=" text-white bg-text-[#F85559] text-2xl fa mx-2 fa-brands fa-twitter"></i>
+                                    <i class=" text-white bg-text-[#F85559] text-2xl fa  fa-brands fa-linkedin"></i>
+                                </div>
+
+                            </div>
+                            <!-- member 3 -->
+                            <div class="flex flex-col items-center">
+                                <img src="./images/member3.png" class="w-[50%] lg:w-full " alt="">
+                                <h2 class="font-bold text-xl mt-4">Rokib Hossain</h2>
+                                <p>Fruits Expert</p>
+                                <div>
+                                    <i class=" text-white bg-text-[#F85559] text-2xl fa  fa-brands fa-facebook"></i>
+                                    <i class=" text-white bg-text-[#F85559] text-2xl fa mx-2 fa-brands fa-twitter"></i>
+                                    <i class=" text-white bg-text-[#F85559] text-2xl fa  fa-brands fa-linkedin"></i>
+                                </div>
+
+                            </div>
+                            <!-- member 4 -->
+                            <div class="flex flex-col items-center">
+                                <img src="./images/member4.png" class="w-[50%] lg:w-full " alt="">
+                                <h2 class="font-bold text-xl mt-4">Chaity</h2>
+                                <p>Fruits Expert</p>
+                                <div>
+                                    <i class=" text-white bg-text-[#F85559] text-2xl fa  fa-brands fa-facebook"></i>
+                                    <i class=" text-white bg-text-[#F85559] text-2xl fa mx-2 fa-brands fa-twitter"></i>
+                                    <i class=" text-white bg-text-[#F85559] text-2xl fa  fa-brands fa-linkedin"></i>
+                                </div>
+
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
     </main>
     <footer>
 
